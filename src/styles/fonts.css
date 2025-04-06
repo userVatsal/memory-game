@@ -1,0 +1,24 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Define CSS variables for colors */
+:root {
+  --primary-gradient-start: #6366f1;
+  --primary-gradient-end: #4f46e5;
+  --secondary-gradient-start: #ec4899;
+  --secondary-gradient-end: #be185d;
+  --card-back-gradient-start: #4f46e5;
+  --card-back-gradient-end: #3730a3;
+  --card-front-bg: #ffffff;
+  --card-text-color: #1e293b;
+  --question-mark-color: #ffffff;
+}
+
+/* Apply fonts to specific elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body, p, span, button {
+  font-family: 'Inter', sans-serif;
+}
